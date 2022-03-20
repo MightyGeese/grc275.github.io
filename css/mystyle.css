@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* My Custom CSS */
+body {
+    background-color: grey;
+}
+
+.container-fluid {
+    background-color: grey;
+}
+
+.boxed {
+    background-color: slateblue;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.boxed > p {
+    font-size: 20px;
+}
+
+.text1 {
+    background-color: darkslategray;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.text2 {
+    background-color: darkslategray;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.sitetitle {
+    color: white;
+}
+
+.list-inline-item > h1 {
+    font-size: 60px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: darkslategrey;
+    padding: 20px;
+}
